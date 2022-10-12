@@ -1,0 +1,110 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-10-08T07:42:35.914Z",
+    "end": "2022-10-08T07:42:52.240Z",
+    "duration": 16326,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "cd03dc36-94a8-4037-898d-7b3aa7b5b44c",
+      "title": "",
+      "fullFile": "cypress\\e2e\\checkbox.spec.cy.js",
+      "file": "cypress\\e2e\\checkbox.spec.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "49da53aa-00b6-43f6-bc8a-e77ea8213dd8",
+          "title": "check box Test Case",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "checkbox",
+              "fullTitle": "check box Test Case checkbox",
+              "timedOut": null,
+              "duration": 13712,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "Checkboxtest.ClickingCheckBox();\nCheckboxtest.pageVerify();\nCheckboxtest.SelectingOption();",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `undefined`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 10000ms: Expected to find element: `undefined`, but never found it.\n    at CHeckBox.SelectingOption (webpack:///./cypress/support/pageObjects/checkBox.po.js:13:66)\n    at Context.eval (webpack:///./cypress/e2e/checkbox.spec.cy.js:12:19)",
+                "diff": null
+              },
+              "uuid": "78bda33c-80c7-473e-9538-12cbf3756bfd",
+              "parentUUID": "49da53aa-00b6-43f6-bc8a-e77ea8213dd8",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "78bda33c-80c7-473e-9538-12cbf3756bfd"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 13712,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "charts": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

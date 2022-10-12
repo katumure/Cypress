@@ -1,0 +1,281 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-10-10T09:28:01.201Z",
+    "end": "2022-10-10T09:29:22.628Z",
+    "duration": 26180,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e0f84c36-c7dc-4f4f-a0f8-28fb3b1ce081",
+      "title": "",
+      "fullFile": "cypress\\e2e\\draganddrop.spec.cy.js",
+      "file": "cypress\\e2e\\draganddrop.spec.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "e89eeb22-761a-441f-97dd-f3698ca105fe",
+          "title": "DragandDropItem Test Case",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "drag and drop element",
+              "fullTitle": "DragandDropItem Test Case drag and drop element",
+              "timedOut": null,
+              "duration": 5224,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "DragandDrop.titleVerify();\nDragandDrop.clickingDragandDrop();\nDragandDrop.pageverify();\nDragandDrop.ClickingDragItem();\nDragandDrop.clickDropItem();",
+              "err": {},
+              "uuid": "e8983240-74ad-4fd5-9a7e-76b2aa9af41c",
+              "parentUUID": "e89eeb22-761a-441f-97dd-f3698ca105fe",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e8983240-74ad-4fd5-9a7e-76b2aa9af41c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5224,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "cc90c5e9-5802-40a4-a651-64400c0e820a",
+      "title": "",
+      "fullFile": "cypress\\e2e\\fileupload.spec.cy.js",
+      "file": "cypress\\e2e\\fileupload.spec.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "6aa6805e-1295-4abf-ada3-3377962374ab",
+          "title": "File Upload Test Case",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "uploading thge file",
+              "fullTitle": "File Upload Test Case uploading thge file",
+              "timedOut": null,
+              "duration": 4775,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "FileUploadtest.titleVerify();\nFileUploadtest.CheckVisible();\nFileUploadtest.clickingFileuploadBtn();\nFileUploadtest.pageverify();\nFileUploadtest.clickingChoosenFileBth();\nFileUploadtest.clickingFileSubmitBtn();",
+              "err": {},
+              "uuid": "7519e813-7234-4d5d-82b3-8e2eab4cc889",
+              "parentUUID": "6aa6805e-1295-4abf-ada3-3377962374ab",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7519e813-7234-4d5d-82b3-8e2eab4cc889"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4775,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "c6d153e3-8faf-4dd2-818f-be52722cfa5b",
+      "title": "",
+      "fullFile": "cypress\\e2e\\iframe.spec.cy.js",
+      "file": "cypress\\e2e\\iframe.spec.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "12e1a566-00bf-4b25-8775-7ffb467cc838",
+          "title": "File Upload Test Case",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Iframe test Case",
+              "fullTitle": "File Upload Test Case Iframe test Case",
+              "timedOut": null,
+              "duration": 8282,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "Iframestest.titleVerify();\nIframestest.Checklength();\nIframestest.ClickingFrame();\nIframestest.pageverifyIframe();\nIframestest.ClickingIframe();\nIframestest.pageverify();\nIframestest.pageVerification();\nIframestest.ClickingFrameBody();\nIframestest.ClickingBold();\nIframestest.ClickingItalic();\nIframestest.ClickingFormat();\nIframestest.ClickingAllingment();",
+              "err": {},
+              "uuid": "62cd5455-a7a0-49d5-887d-9f483a81519a",
+              "parentUUID": "12e1a566-00bf-4b25-8775-7ffb467cc838",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "62cd5455-a7a0-49d5-887d-9f483a81519a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8282,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "578a6398-c51b-4a86-a732-15b370f7e1af",
+      "title": "",
+      "fullFile": "cypress\\e2e\\checkbox.spec.cy.js",
+      "file": "cypress\\e2e\\checkbox.spec.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "e120af5a-e994-4612-800f-255ca3aaf107",
+          "title": "check box Test Case",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "checkbox",
+              "fullTitle": "check box Test Case checkbox",
+              "timedOut": null,
+              "duration": 7899,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "Checkboxtest.titleVerify();\nCheckboxtest.VisibelCheck();\nCheckboxtest.ClickingCheckBox();\nCheckboxtest.pageVerify();\nCheckboxtest.SelectingOption();",
+              "err": {},
+              "uuid": "2607c5e5-84b6-40a8-998d-9ef8d3120997",
+              "parentUUID": "e120af5a-e994-4612-800f-255ca3aaf107",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "2607c5e5-84b6-40a8-998d-9ef8d3120997"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 7899,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "reportFilename": "report",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

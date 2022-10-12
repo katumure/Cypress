@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-10-10T09:29:11.863Z",
+    "end": "2022-10-10T09:29:22.628Z",
+    "duration": 10765,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c6d153e3-8faf-4dd2-818f-be52722cfa5b",
+      "title": "",
+      "fullFile": "cypress\\e2e\\iframe.spec.cy.js",
+      "file": "cypress\\e2e\\iframe.spec.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "12e1a566-00bf-4b25-8775-7ffb467cc838",
+          "title": "File Upload Test Case",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Iframe test Case",
+              "fullTitle": "File Upload Test Case Iframe test Case",
+              "timedOut": null,
+              "duration": 8282,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "Iframestest.titleVerify();\nIframestest.Checklength();\nIframestest.ClickingFrame();\nIframestest.pageverifyIframe();\nIframestest.ClickingIframe();\nIframestest.pageverify();\nIframestest.pageVerification();\nIframestest.ClickingFrameBody();\nIframestest.ClickingBold();\nIframestest.ClickingItalic();\nIframestest.ClickingFormat();\nIframestest.ClickingAllingment();",
+              "err": {},
+              "uuid": "62cd5455-a7a0-49d5-887d-9f483a81519a",
+              "parentUUID": "12e1a566-00bf-4b25-8775-7ffb467cc838",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "62cd5455-a7a0-49d5-887d-9f483a81519a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8282,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "reportFilename": "report",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-10-08T07:30:46.110Z",
+    "end": "2022-10-08T07:30:57.425Z",
+    "duration": 11315,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "7d18b04a-a793-450a-b65f-12f27b524fae",
+      "title": "",
+      "fullFile": "cypress\\e2e\\iframe.spec.cy.js",
+      "file": "cypress\\e2e\\iframe.spec.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f609efa2-cb82-4bb5-b3b1-e078d149bc30",
+          "title": "File Upload Test Case",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Iframe test Case",
+              "fullTitle": "File Upload Test Case Iframe test Case",
+              "timedOut": null,
+              "duration": 9151,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "iFramestest.ClickingFrame();\niFramestest.ClickingIframe(); //iFramestest.typeBody() \niFramestest.pageVerification();\niFramestest.ClickingFrameBody();\niFramestest.ClickingBold();\niFramestest.ClickingItalic();\niFramestest.ClickingFormat();\niFramestest.ClickingAllingment(); // iFramestest.ClickingTextColor()\n//iFramestest.ClickingRedColor()",
+              "err": {},
+              "uuid": "5b8e63d8-0ee6-44eb-9898-2fb80ecaab4f",
+              "parentUUID": "f609efa2-cb82-4bb5-b3b1-e078d149bc30",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5b8e63d8-0ee6-44eb-9898-2fb80ecaab4f"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 9151,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "charts": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
